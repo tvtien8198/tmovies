@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-Movie</title>
+    <link rel="shortcut icon" href="images/faicon.png" type="image/x-icon">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@400;600&display=swap" rel="stylesheet">
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <!-- BOX ICONS -->
+    <link href='css/boxicons.min.css' rel='stylesheet'>
+    <!-- APP CSS -->
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--HEADER-->
+    <div class="nav-wrapper">
+        <div class="container">
+            <div class="nav">
+                <a href="#" class="logo">
+                    <img src="images/tmovies.png" alt="">
+                </a>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#">Phim mới</a></li>
+                    <li><a href="#">Thể loại</a></li>
+                    <li><a href="#">Quốc gia</a></li>
+                    <li><a href="#">Phim chiếu rạp</a></li>
+                    <li><a href="#">Phim lẻ</a></li>
+                    <li><a href="#">Phim bộ</a></li>
+                    <li><a href="#">Anime</a></li>
+                    <!-- <li>
+                        <a href="#" class="btn btn-hover">
+                            <span>Sign in</span>
+                        </a>
+                    </li> -->
+                    <li>
+                        <a href="#" class="search-mn">
+                            <i class='bx bxs-user bx-tada-hover'></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="search-mn" id="open-search">
+                            <i class="bx bx-search bx-tada-hover"></i>
+                        </a>
+                    </li>
+                </ul>
+                <div class="hamburger-menu" id="hamburger-menu">
+                    <div class="hamburger"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--END HEADER-->
+    <!--SEARCH-->
+    <div class="box-search">
+        <div class="search">
+            <i class="bx bx-search"></i>
+            <input type="text" placeholder="Bạn muốn tìm phim gì ?">
+        </div>
+        <a href="#" class="close-search" id="close-search">
+            <i class="bx bx-x bx-tada-hover"></i>
+        </a>
+    </div>
+    <!--END SEARCH-->
+    <!--MAIN-->
+    <div class="hero-section">
+        <div class="hero-slide">
+            <div class="owl-carousel carousel-nav-center" id="hero-carousel">
+            </div>
+        </div>
+        <div class="top-movies-slide">
+            <div class="owl-carousel" id="top-movies-slide">
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2><i class='bx bx-camera-movie bx-tada'></i> Phim Chiếu rạp</h2>
+                    <a href="#" class="view-all">
+                        <span>Xem tất cả</span>
+                        <i class='bx bx-film'></i>
+                    </a>
+                </div>
+                <div class="movies-slide carousel-nav-center owl-carousel" id="movies-theater">
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2><i class='bx bx-camera-movie bx-tada'></i> Phim hoạt hình</h2>
+                    <a href="#" class="view-all">
+                        <span>Xem tất cả</span>
+                        <i class='bx bx-film'></i>
+                    </a>
+                </div>
+                <div class="movies-slide carousel-nav-center owl-carousel" id="movies-anime">
+
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2><i class='bx bx-camera-movie bx-tada'></i> Phim lẻ</h2>
+                    <a href="#" class="view-all">
+                        <span>Xem tất cả</span>
+                        <i class='bx bx-film'></i>
+                    </a>
+                </div>
+                <div class="movies-slide carousel-nav-center owl-carousel" id="movies-odd">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--END MAIN-->
+    <!--BACK TO TOP-->
+    <a href="#" class="back-to-top" id="back-to-top">
+        <i class='bx bxs-chevron-up bx-tada-hover'></i>
+    </a>
+    <!--END BACK TO TOP-->
+    <!--FOOTER-->
+    <footer class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-md-6 col-sm-12">
+                    <div class="content">
+                        <!-- <a href="#" class="logo">
+                            <img src="images/tmovies.png" alt="">
+                        </a> -->
+                        <h3><i class='bx bxs-purchase-tag-alt'></i> Tag Phim Hot</h3>
+                        <p>
+                            <a href="#" class="tag">Phim Hàn Quốc</a>
+                            <a href="#" class="tag">Tình cảm - Lãng mạn</a>
+                            <a href="#" class="tag">Khoa học - Viễn tưởng</a>
+                            <a href="#" class="tag">TV Show</a>
+                            <a href="#" class="tag">Hoạt hình - Anime</a>
+                            <a href="#" class="tag">Phim Sắp chiếu</a>
+                            <a href="#" class="tag">Phim Trung Quốc</a>
+                            <a href="#" class="tag">Webdrama</a>
+                            <a href="#" class="tag">Tâm lý - Hình sự</a>
+                            <a href="#" class="tag">Kinh dị</a>
+                            <a href="#" class="tag">Phim Âu Mỹ</a>
+                            <a href="#" class="tag">Phim Thái Lan</a>
+                            <a href="#" class="tag">Gia Đình</a>
+                            <a href="#" class="tag">Võ thuật</a>
+                            <a href="#" class="tag">Phiêu lưu</a>
+                        </p>
+                        <div class="social-list">
+                            <a href="#" class="social-item">
+                                <i class="bx bxl-facebook"></i>
+                            </a>
+                            <a href="#" class="social-item">
+                                <i class="bx bxl-youtube"></i>
+                            </a>
+                            <a href="#" class="social-item">
+                                <i class="bx bxl-instagram"></i>
+                            </a>
+                            <a href="#" class="social-item">
+                                <i class="bx bxl-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8 col-md-6 col-sm-12">
+                    <div class="row">
+                        <div class="col-3 col-md-6 col-sm-12">
+                            <div class="content">
+                                <h3><i class='bx bx-film'></i> Thể loại</h3>
+                                <ul class="footer-menu">
+                                    <li><a href="#">Tình cảm</a></li>
+                                    <li><a href="#">Học đường</a></li>
+                                    <li><a href="#">Cổ trang</a></li>
+                                    <li><a href="#">Hài hước</a></li>
+                                    <li><a href="#">Giải trí</a></li>
+                                    <li><a href="#">Phiêu lưu</a></li>
+                                    <li><a href="#">Thần thoại</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-sm-12">
+                            <div class="content">
+                                <h3><i class='bx bx-film'></i> Quốc gia</h3>
+                                <ul class="footer-menu">
+                                    <li><a href="#">Việt Nam</a></li>
+                                    <li><a href="#">Nhật Bản</a></li>
+                                    <li><a href="#">Thái Lan</a></li>
+                                    <li><a href="#">Trung Quốc</a></li>
+                                    <li><a href="#">Hàn Quốc</a></li>
+                                    <li><a href="#">Ấn Độ</a></li>
+                                    <li><a href="#">Philippines</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-sm-12">
+                            <div class="content">
+                                <h3><i class='bx bx-film'></i> Thông tin</h3>
+                                <ul class="footer-menu">
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Giới thiệu</a></li>
+                                    <li><a href="#">Hỏi & Đáp</a></li>
+                                    <li><a href="#">Điều khoản sử dụng</a></li>
+                                    <li><a href="#">Chính sách bảo mật</a></li>
+                                    <li><a href="#">Bản quyền</a></li>
+                                    <li><a href="#">Trách nhiệm nội dung</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-sm-12">
+                            <div class="content">
+                                <h2><i class='bx bxl-play-store'></i> Tải App</h2>
+                                <ul class="footer-menu">
+                                    <li>
+                                        <a href="#">
+                                            <img src="./images/google-play.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="./images/app-store.png" alt="">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--END FOOTER-->
+    <!--COPYRIGHT-->
+    <div class="copyright">
+        <div class="container">
+            <div class="footer-cpr">
+                <div class="cpr-link"><a href="#">T M O V I E S</a></div>
+                <div class="cpr-in">© 2021 Copyright. All Rights reserved</div>
+            </div>
+        </div>
+    </div>
+    <!--END COPYRIGHT-->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- OWL CAROUSEL -->
+    <script src="js//owl.carousel.min.js"></script>
+    <!-- APP SCRIPT -->
+    <script src="js/movies.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
